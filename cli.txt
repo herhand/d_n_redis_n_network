@@ -1,0 +1,3 @@
+docker network create --driver=bridge --subnet=10.100.19.0/16 netqu
+
+docker run -d -p 6379:6379 --name my-first-redis -v /redis.conf:/usr/local/etc/redis/redis.conf -v d:/vol/redis:/data redis --appendonly yes
