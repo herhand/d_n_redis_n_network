@@ -1,5 +1,5 @@
 # Dockerfile for Redis
-Laravel Compose ready docker image for development
+Docker run ready for bridge network & redis
 
 # Installation Guide
     1)Clone Or Download The Repository
